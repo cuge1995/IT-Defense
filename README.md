@@ -3,9 +3,14 @@ Our code for paper '[The art of defense: letting networks fool the attacker](htt
 
 ## Introduction
 
-Some deep neural networks are invariant to some input transformations, such as Pointnet is permutation invariant to the input point cloud. In this paper, we demonstrated this property can be powerful in the defense of gradient based attacks. Specifically, we apply random input transformation which is invariant to networks we want to defend. Extensive experiments demonstrate that the proposed scheme outperforms the SOTA defense methods, and breaking the attack accuracy into nearly zero.
+Robust environment perception is critical for autonomous cars, and adversarial defenses are the most effective and widely studied ways to improve the robustness of environment perception.
+However, all of previous defense methods decrease the natural accuracy, and the nature of the DNNs itself has been overlooked. To this end, in this paper, we propose a novel adversarial defense for 3D point cloud classifier that makes full use of the nature of the DNNs. Due to the disorder of point cloud, all point cloud classifiers have the property of permutation invariant to the input point cloud. Based on this nature, we design invariant transformations defense (IT-Defense).
+We show that, even after accounting for obfuscated gradients, our IT-Defense is a resilient defense against state-of-the-art (SOTA) 3D attacks. Moreover, IT-Defense do not hurt clean accuracy compared to previous SOTA 3D defenses.
 
 
+![invariant](figs/Permutation.png)
+
+![it_defense](figs/It_defense.png)
 
 ### Citation
 
