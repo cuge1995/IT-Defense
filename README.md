@@ -17,11 +17,12 @@ We show that, even after accounting for obfuscated gradients, our IT-Defense is 
 if you find our work useful in your research, please consider citing:
 
 ```
-@article{zhang2021itdefense,
+@article{zhang2023art,
   title={The art of defense: letting networks fool the attacker},
-  author={Zhang, Jinlai and Liu, Binbin and Chen, Lyujie and Ouyang, Bo and Zhu, Jihong and Kuang, Minchi and Wang, Houqing and Meng, Yanmei},
-  journal={arXiv preprint arXiv:2104.02963},
-  year={2021}
+  author={Zhang, Jinlai and Dong, Yinpeng and Liu, Binbin and Ouyang, Bo and Zhu, Jihong and Kuang, Minchi and Wang, Houqing and Meng, Yanmei},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
